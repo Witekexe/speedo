@@ -1,0 +1,8 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiSpeedometer.MainPage"
+             Title="Speedometer">
+    <Grid>
+        <Label Text="{Binding Speed}" FontSize="36" HorizontalOptions="Center" VerticalOptions="Center"/>
+    </Grid>
+</ContentPage>
